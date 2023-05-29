@@ -1,0 +1,18 @@
+<html>
+<head>
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    
+    <form action="/calculate" method="post">
+        <input type="text" name="expression" placeholder="Enter an expression" required>
+        <input type="submit" value="Calculate">
+    </form>
+    
+    {% if expression %}
+        <h2>Expression: {{ expression }}</h2>
+        <h2>Result: {{ result }}</h2>
+    {% endif %}
+</body>
+</html>
