@@ -1,5 +1,4 @@
 # calculator_using_python_flask
-# RockPaperScissors_Python_Flask_Project
 Open the file using Visual Studio Code. 
 
 1. Click on the terminal and open new terminal. Make sure you are on the correct path in which you saved the document.
